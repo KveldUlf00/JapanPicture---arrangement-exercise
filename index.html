@@ -1,0 +1,142 @@
+<!-- 
+    Układ 16:9
+    Ma być podobny (nie pixel w pixel)
+    Ma być responsywny (dostosowoywać się do wysokości przeglądarki)
+
+    ZŁOTE ZASADY
+    - Zrób tak jak potrafisz i tyle ile potrafisz
+    - Próbuj/testuj/sprawdzaj co by było. Takie próbowanie to najważniejsze cechy programisty
+    - Nie przeskakuj ćwiczenia. 
+ -->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A dream about old Japan</title>
+    <style>
+        .picture {
+            position: absolute;
+            background-color: grey;
+            width: 80vh;
+            height: 45vh;
+            top: calc(50% - 22.5vh);
+            left: calc(50% - 40vh);
+            overflow: hidden;
+        }
+
+        img {
+            position: absolute;
+        }
+
+        #img1 {
+            width: 120%;
+            height: 120%;
+            top: 5%;
+            left: -5%;
+            z-index: 1;
+        }
+
+        #img2 {
+            width: 120%;
+            height: 120%;
+            top: 20%;
+            left: 0%;
+            z-index: 2;
+        }
+
+        #img3 {
+            width: 120%;
+            height: 120%;
+            top: 30%;
+            left: -20%;
+            z-index: 3;
+        }
+
+        #img4 {
+            width: 120%;
+            height: 120%;
+            top: 30%;
+            left: 0%;
+            z-index: 3;
+        }
+
+        #img5 {
+            width: 120%;
+            height: 120%;
+            top: 37%;
+            left: -5%;
+            z-index: 3;
+        }
+
+        #img6 {
+            width: 120%;
+            height: 120%;
+            top: 65%;
+            left: -18%;
+            z-index: 3;
+        }
+
+        #img7 {
+            width: 9%;
+            height: 16%;
+            top: 2%;
+            left: 5%;
+            z-index: 3;
+        }
+
+        #img8 {
+            width: 35%;
+            height: 6%;
+            top: 8%;
+            left: -10%;
+            z-index: 3;
+        }
+
+        #img9 {
+            width: 45%;
+            height: 12%;
+            top: 4%;
+            left: 55%;
+            z-index: 3;
+        }
+
+        #img10 {
+            width: 45%;
+            height: 45%;
+            top: 10%;
+            right: 0%;
+            z-index: 3;
+        }
+
+        #img11 {
+            width: 10%;
+            height: 30%;
+            top: 55%;
+            left: 5%;
+            z-index: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="picture">
+        <!-- img[src=img/japan$.png]*11 -->
+        <img src="img/japan1.png" id="img1" alt="">
+        <img src="img/japan2.png" id="img2" alt="">
+        <img src="img/japan3.png" id="img3" alt="">
+        <img src="img/japan4.png" id="img4" alt="">
+        <img src="img/japan5.png" id="img5" alt="">
+        <img src="img/japan6.png" id="img6" alt="">
+        <img src="img/japan7.png" id="img7" alt="">
+        <img src="img/japan8.png" id="img8" alt="">
+        <img src="img/japan9.png" id="img9" alt="">
+        <img src="img/japan10.png" id="img10" alt="">
+        <img src="img/japan11.png" id="img11" alt="">
+
+    </div>
+</body>
+
+</html>
